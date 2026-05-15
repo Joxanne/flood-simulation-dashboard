@@ -57,10 +57,11 @@ Flask 儀表板
 
 ### 訓練結果
 
-| 指標 | 最佳值（Epoch 35） |
-|------|-------------------|
-| Validation Loss | 1.189 |
-| Flood Area MSE | 0.245 |
+| 指標 | 最佳值 |
+| --- | --- |
+| Validation Loss | 1.189（Epoch 35） |
+| Flood Area MSE | 0.245（Epoch 35） |
+| Validation MAE | 0.016 m（Epoch 9） |
 
 ![訓練曲線](images/01_training_curves.png)
 
