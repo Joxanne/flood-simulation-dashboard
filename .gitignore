@@ -1,0 +1,31 @@
+# macOS artifacts
+.DS_Store
+**/.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# 訓練資料（過大）
+model_train/train_data/
+model_train/val_data/
+model_train/test_data/
+
+# 模型權重（binary，過大）
+*.pth
+*.7z
+
+# 驗證圖（120 張過多）
+model_train/visualizations/validation/
+
+# 地圖 Tiles（生成資料，14MB）
+front_test_v2/static/tiles/
+
+# Jupyter
+.ipynb_checkpoints/

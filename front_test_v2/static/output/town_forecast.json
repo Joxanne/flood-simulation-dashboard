@@ -1,0 +1,79 @@
+{
+  "東勢鄉": {
+    "name": "東勢鄉",
+    "lat": 23.674,
+    "lon": 120.253,
+    "forecast": [
+      0.5,
+      0.34,
+      0.09
+    ],
+    "riskLevel": "normal"
+  },
+  "褒忠鄉": {
+    "name": "褒忠鄉",
+    "lat": 23.702,
+    "lon": 120.315,
+    "forecast": [
+      0.89,
+      0.85,
+      0.69
+    ],
+    "riskLevel": "danger"
+  },
+  "臺西鄉": {
+    "name": "臺西鄉",
+    "lat": 23.703,
+    "lon": 120.198,
+    "forecast": [
+      2.75,
+      2.52,
+      2.8
+    ],
+    "riskLevel": "critical"
+  },
+  "元長鄉": {
+    "name": "元長鄉",
+    "lat": 23.646,
+    "lon": 120.313,
+    "forecast": [
+      0.35,
+      0.62,
+      0.46
+    ],
+    "riskLevel": "warning"
+  },
+  "四湖鄉": {
+    "name": "四湖鄉",
+    "lat": 23.636,
+    "lon": 120.222,
+    "forecast": [
+      0.2,
+      0.19,
+      0.15
+    ],
+    "riskLevel": "normal"
+  },
+  "口湖鄉": {
+    "name": "口湖鄉",
+    "lat": 23.579,
+    "lon": 120.185,
+    "forecast": [
+      2.85,
+      3.10,
+      3.17
+    ],
+    "riskLevel": "extreme"
+  },
+  "水林鄉": {
+    "name": "水林鄉",
+    "lat": 23.575,
+    "lon": 120.245,
+    "forecast": [
+      1.25,
+      1.58,
+      1.55
+    ],
+    "riskLevel": "critical"
+  }
+}

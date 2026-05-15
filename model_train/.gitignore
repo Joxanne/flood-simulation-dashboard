@@ -1,0 +1,20 @@
+# 訓練資料（過大，不上傳）
+/train_data
+/val_data
+/test_data
+
+# 模型權重（binary 過大）
+/checkpoints/*.pth
+/checkpoints/*.7z
+
+# 驗證圖（120 張過多，只保留 demo.gif）
+/visualizations/validation/
+/visualizations/validation.7z
+
+# 參考文獻 PDF
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/

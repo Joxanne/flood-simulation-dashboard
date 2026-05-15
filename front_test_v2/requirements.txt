@@ -1,0 +1,11 @@
+# Web Framework
+flask>=3.0.0
+
+# Geospatial
+geopandas>=0.14.0
+shapely>=2.0.0
+h3>=4.0.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0

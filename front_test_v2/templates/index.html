@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雲林縣淹水預報系統</title>
+    <!-- MapLibre GL CSS -->
+    <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- 左側邊欄：預警資訊 -->
+    <div id="sidebar">
+        <div class="sidebar-header">
+            <h2 id="sidebar-title">🚨 預警資訊</h2>
+            <button id="toggle-sidebar">▲</button>
+        </div>
+        <div id="alert-content">
+            <p id="placeholder-text" style="color: #666; margin-top: 10px; text-align: center;">請點擊地圖上的站點查看詳細資訊</p>
+            <div id="chart-container" style="position: relative; height: 300px; width: 100%;">
+                <canvas id="floodChart"></canvas>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- 主地圖容器 -->
+    <div id="map"></div>
+
+    <!-- 底部控制列：圖例 -->
+    <div id="controls">
+        <div class="legend" style ="display: flex; justify-content: space-around;">
+            <div><span class="color-box" style="background: yellow;"></span> 0.3-0.5m</div>
+            <div><span class="color-box" style="background: orange;"></span> 0.5-1.0m</div>
+            <div><span class="color-box" style="background: red;"></span> 1.0m-3.0m</div>
+            <div><span class="color-box" style="background: #800080;"></span> > 3.0m</div>
+        </div>
+    </div>
+
+    <!-- MapLibre JS -->
+    <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+    <!-- deck.gl JS -->
+    <script src="https://unpkg.com/deck.gl@8.9.33/dist.min.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.1.0"></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
